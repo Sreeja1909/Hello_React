@@ -41,7 +41,7 @@ debugger
        <div className = "body">
         <div className="Filter flex  ">
             <div className="search m-3 p-3">
-                <input type = "text" className="border border-solid border-black" value={searchText}
+                <input data-testid ="searchInput" type = "text" className="border border-solid border-black" value={searchText}
                 onChange={
                     (e)=>
                     {setSearchText(e.target.value)
@@ -58,7 +58,7 @@ debugger
             </div>
         
         <div>
-        <div className="search m-3 p-3 items-center"> 
+        <div data-testId="topRatedBTN" className="search m-3 p-3 items-center"> 
         <button className=" px-3 py-3  bg-green-100 m-4 rounded-lg"
         onClick={() =>{
             const filteredList = listOfRestaurents.filter(
@@ -77,10 +77,6 @@ debugger
         </div>
         </div>
 
-        
-
-       
-       
         </div>
         <div className="flex flex-wrap"> 
          {filteredRestaurant.map((resturent) => (

@@ -15,7 +15,7 @@ const Header = () =>{
 
       //Subcribing the store using selector
        const cartItems = useSelector((store) => store.cart.items);
-       console.log(cartItems)
+       //console.log(cartItems)
        
        return(
        <div className="flex items-center justify-between px-6 py-3 bg-pink-100 shadow-md">

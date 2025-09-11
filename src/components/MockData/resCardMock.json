@@ -1,0 +1,15 @@
+{
+  "info": {
+    "id": "518650",
+    "name": "Burger King",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/b93955b1-55d2-44d8-a641-66a2e10cbe4d_518650.jpg",
+    "locality": "Praga Mall",
+    "areaName": "Nallakunta & Vidyanagar",
+    "costForTwo": "₹350 for two",
+    "cuisines": ["Burgers", "American"],
+    "avgRating": 4.2,
+    "sla": {
+      "slaString": "40-50 mins"
+    }
+  }
+}
